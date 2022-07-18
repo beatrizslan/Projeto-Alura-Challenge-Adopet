@@ -1,0 +1,13 @@
+.rodape {
+    background: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    height: 15vh;
+}
+
+.rodape__texto {
+    line-height: 24px;
+}
