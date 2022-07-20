@@ -1,0 +1,57 @@
+.cadastro {
+    background: url("../img/Forma\ 3.png") left bottom / auto no-repeat;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cadastro__obeservacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.obeservacao__texto {
+    color: var(--azul);
+    line-height: 21px;
+}
+
+.cadastro__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario__etiqueta {
+    color: var(--cinza);
+    line-height: 24px;
+    padding-bottom: 0.3em;
+}
+
+.formulario__input {
+    background: var(--cinza-claro-fundos);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    text-align: center;
+    width: 312px;
+    height: 40px;
+    margin-bottom: 1.5em;
+}
+
+.formulario__input::placeholder {
+    color: var(--cinza-claro);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.icone__visualizacao {
+    background: var(--cinza-claro-fundos) url("../img/Vector.svg") 95% no-repeat;  
+}
+
+.cadastro__botao {
+    width: 148px;
+}

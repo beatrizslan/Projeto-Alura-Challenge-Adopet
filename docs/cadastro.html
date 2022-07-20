@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet | Cadastro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style/body.css">
+</head>
+<body>
+    <header class="cabecalho cabecalho-ilustracao">
+        <div class="cabecalho__botao">
+            <a href="#" class="cabecalho__botao__icones">
+                <img src="img/Casa.svg" alt="Ir para o início" class="cabecalho__botao__imagem">
+            </a>
+            <a href="#" class="cabecalho__botao__icones">
+                <img src="img/Mensagens.svg" alt="Entrar em contato" class="cabecalho__botao__imagem">
+            </a>
+        </div>
+    </header>
+
+    <main class="cadastro">
+        <div class="cadastro__obeservacao">
+            <h1 class="obeservacao__logo">
+                <img src="img/Logo-azul.svg" alt="Logo Adopet">
+            </h1>
+            <p class="obeservacao__texto">Ainda não tem cadastro?</p>
+            <p class="obeservacao__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </div>
+        <form method="post" action="#" class="cadastro__formulario">
+            <label for="email" class="formulario__etiqueta">Email</label>
+            <input type="email" name="email" id="email" class="formulario__input" placeholder="Escolha seu melhor email">
+
+            <label for="nome" class="formulario__etiqueta">Nome</label>
+            <input type="text" name="nome" id="nome" class="formulario__input" placeholder="Digite seu nome completo">
+
+            <label for="senha" class="formulario__etiqueta">Senha</label>
+            <input type="password" name="senha" id="senha" class="formulario__input icone__visualizacao" placeholder="Crie uma senha">
+
+            <label for="senha" class="formulario__etiqueta">Confirma sua senha</label>
+            <input type="password" name="senha" id="senha" class="formulario__input icone__visualizacao" placeholder="Repita a senha criada acima">
+        </form>
+        <button class="conteudo__botao cadastro__botao">Cadastrar</button>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

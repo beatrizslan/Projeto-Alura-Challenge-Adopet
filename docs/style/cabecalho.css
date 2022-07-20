@@ -1,3 +1,7 @@
+.cabecalho {
+    height: 22vh;
+}
+
 .cabecalho__botao {
     display: flex;
     justify-content: flex-start;
@@ -6,4 +10,7 @@
     padding: 3rem;
 }
 
-
+.cabecalho-ilustracao {
+    background: url("../img/Patas.png") right 35% / auto no-repeat;
+    max-width: 100vw;
+}

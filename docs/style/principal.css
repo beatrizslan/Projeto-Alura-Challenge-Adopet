@@ -1,15 +1,19 @@
-.conteudo {
-    background: url("../img/Forma\ 2.png") right / auto no-repeat;
-    height: 85vh;
+.principal {
+    background: url("../img/Forma\ 2.png") right / auto no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
 }
 
-.conteudo__principal {
+.principal__conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1.5em;
-    padding: 4em;
+    gap: 1.5rem;
+    padding: 0 4rem;
 }
 
 .conteudo__subtitulo {
@@ -19,7 +23,6 @@
 }
 
 .conteudo__texto {
-    width: 248px;
     line-height: 24px;
 }
 
@@ -33,6 +36,8 @@
     height: 40px;
 }
 
-.conteudo__imagem {
-    padding-right: 3rem;
+.conteudo__ilustracao {
+    padding-right: 2rem;
+    position: relative;
+    top: 1.2em;
 }
