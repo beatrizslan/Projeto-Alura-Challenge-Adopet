@@ -1,10 +1,10 @@
-.cadastro {
+.formulario {
     background: url("../img/Forma\ 3.png") left bottom / auto no-repeat;
     text-align: center;
     margin-bottom: 5rem;
 }
 
-.cadastro__obeservacao {
+.formulario__obeservacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
     line-height: 21px;
 }
 
-.cadastro__formulario {
+.formulario__preencher {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +52,6 @@
     background: var(--cinza-claro-fundos) url("../img/Vector.svg") 95% no-repeat;  
 }
 
-.cadastro__botao {
+.formulario__botao {
     width: 148px;
 }
