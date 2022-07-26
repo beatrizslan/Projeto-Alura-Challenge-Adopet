@@ -1,0 +1,44 @@
+.produto__texto {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.produto__lista__itens {
+    background: var(--cinza-claro-fundos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 196px;
+    margin: 1rem 0;
+}
+
+.produto__lista__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.produto__lista__titulo {
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.produto__lista__texto {
+    color: var(--cinza);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.produto__lista__info {
+    color: var(--cinza);
+    font-size: 12px;
+}
+
+.produto__lista__contato {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 10px;
+    padding-top: 0.4rem;
+}
