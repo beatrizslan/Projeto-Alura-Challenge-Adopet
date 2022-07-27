@@ -1,11 +1,10 @@
 .rodape {
     background: var(--verde);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: var(--branco);
     position: relative;
-    z-index: 1;
-    height: 15vh;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .rodape__texto {

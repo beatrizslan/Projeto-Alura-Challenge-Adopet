@@ -1,6 +1,12 @@
+.produto {
+    color: var(--azul);
+    padding-top: 2rem;
+}
+
 .produto__texto {
     text-align: center;
-    padding-bottom: 1rem;
+    padding: 1rem 3rem;
+    line-height: 20px;
 }
 
 .produto__lista__itens {
@@ -11,6 +17,7 @@
     gap: 2rem;
     height: 196px;
     margin: 1rem 0;
+    padding: 0 0.5rem;
 }
 
 .produto__lista__descricao {
@@ -41,4 +48,30 @@
     gap: 0.5rem;
     font-size: 10px;
     padding-top: 0.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produto {
+        padding-top: 3rem;
+    }
+
+    .produto__lista {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem 4.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto {
+        background-image: url("../img/Forma-02-responsivo.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
+    .produto__lista {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 10rem;
+    }
 }

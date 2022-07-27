@@ -4,7 +4,6 @@
 @import url("cabecalho.css");
 @import url("principal.css");
 @import url("formulario.css");
-@import url("login.css");
 @import url("produto.css");
 @import url("rodape.css");
 
@@ -23,16 +22,44 @@
 }
 
 body {
-    background-image: url("../img/Forma\ 1.png");
-    background-repeat: no-repeat;
-    background-color: var(--branco);
-    color: var(--branco);
     font-family: var(--fonte-principal);
+    background-image: url("../img/Forma-01.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: var(--branco);
     font-size: 16px;
     font-weight: 400;
-    height: 100vh;
 }
 
-.folha__principal {
-    background-color: var(--azul);   
+.index__body {
+    background-color: var(--azul);
+    color: var(--branco);
+    background-image: url("../img/Forma-01.png"), url("../img/Forma-02.png"), url("../img/Ilustração-pets.png");
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 4rem center;
+}
+
+.cadastro__body {
+    background-color: var(--branco);
+    color: var(--azul);
+    background-image: url("../img/Patas.png"), url("../img/Forma-01.png"), url("../img/Forma-03.png");
+    background-repeat: no-repeat;
+    background-position: right top, left top, left 75%;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+        background-image: url("../img/Forma-01-responsivo.png");
+    }
+
+    .index__body {
+        background-image: url("../img/Forma-01-responsivo.png"), url("../img/Forma-02-responsivo.png"), url("../img/Ilustração-pets-responsivo.png");
+    }
+
+    .cadastro__body {
+        background-image: url("../img/Patas-responsivo.png"), url("../img/Forma-01-responsivo.png"), url("../img/Forma-02-responsivo.png");
+        background-repeat: no-repeat;
+        background-position: right top, left top, right center;
+    }
 }
