@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet | Mensagem</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/body.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+       <div class="cabecalho__icones">
+           <img src="../img/Logo-header.svg" alt="Logotipo da Adopet" class="cabecalho__logo">
+           <a href="#" class="cabecalho__menu">
+                <img src="../img/Casa.svg" alt="Ir para página principal" class="cabecalho__menu__icone">
+           </a>
+           <a href="#" class="cabecalho__menu">
+                <img src="../img/Mensagens.svg" alt="Entrar em contato" class="cabecalho__menu__icone">
+           </a>
+       </div>
+        <div>
+            <a href="#" class="cabecalho__menu">
+                <img src="../img/Usuário.svg" alt="Sua conta">
+            </a>
+        </div>
+    </header>
+
+    <main class="mensagem">
+        <p class="mensagem__texto">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+
+        <form action="#" method="post" class="mensagem__formulario">
+
+            <label for="nome" class="mensagem__etiqueta">Nome</label>
+            <input type="text" name="nome" id="nome" class="mensagem__input" placeholder="Insira seu nome completo">
+
+            <label for="telefone" class="mensagem__etiqueta">telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="mensagem__input" placeholder="Insira seu telefone e/ou whatsapp">
+
+            <label for="animal" class="mensagem__etiqueta">Nome do animal</label>
+            <input type="text" name="animal" id="animal" class="mensagem__input" placeholder="Por qual animal você se interessou?">
+
+            <label for="mensagem" class="mensagem__etiqueta">Nome do animal</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="mensagem__input mensagem__input-textarea" placeholder="Escreva sua mensagem."></textarea>
+
+            <div class="mensagem__botao">
+                <button class="mensagem__botao__clicar">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+
+</body>
+</html>
