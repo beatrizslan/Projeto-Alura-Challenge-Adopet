@@ -1,0 +1,39 @@
+.perfil__titulo {
+    color: var(--cinza);
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.mensagem__texto-perfil {
+    width: 247px;
+}
+
+.perfil__foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.perfil__foto__imagem {
+    width: 60px;
+}
+
+.perfil__foto__texto {
+    color: var(--coral);
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.mensagem__input-perfil::placeholder {
+    color: var(--cinza);
+}
+
+@media screen and (min-width: 768px) {
+    .mensagem__texto-perfil {
+        width: 524px;
+    }
+}

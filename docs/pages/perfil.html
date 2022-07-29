@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet | Perfil</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/body.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+       <div class="cabecalho__icones">
+           <img src="../img/Logo-header.svg" alt="Logotipo da Adopet" class="cabecalho__logo">
+           <a href="#" class="cabecalho__menu">
+                <img src="../img/Casa.svg" alt="Ir para página principal" class="cabecalho__menu__icone">
+           </a>
+           <a href="#" class="cabecalho__menu">
+                <img src="../img/Mensagens.svg" alt="Entrar em contato" class="cabecalho__menu__icone">
+           </a>
+       </div>
+        <div>
+            <a href="#" class="cabecalho__menu">
+                <img src="../img/Perfil.png" alt="Seu perfil" class="cabecalho__perfil">
+            </a>
+        </div>
+    </header>
+
+    <main class="mensagem perfil">
+        <p class="mensagem__texto mensagem__texto-perfil">Esse é o perfil que aparece para responsáveis ou <abbr title="Organizações não Governamentais">ONGs</abbr> que recebem sua mensagem.</p>
+
+        <form action="#" method="post" class="mensagem__formulario">
+            <h2 class="perfil__titulo">Perfil</h2>
+            <label for="foto" class="mensagem__etiqueta">Foto</label>
+            <div class="perfil__foto">
+                <img src="../img/Perfil.png" alt="Sua foto de perfil" id="foto" class="perfil__foto__imagem">
+                <span class="perfil__foto__texto">Clique na foto para editar</span>
+            </div>
+
+            <label for="nome" class="mensagem__etiqueta">Nome</label>
+            <input type="text" name="nome" id="nome" class="mensagem__input mensagem__input-perfil" placeholder="Joana Magalhães">
+
+            <label for="telefone" class="mensagem__etiqueta">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="mensagem__input mensagem__input-perfil" placeholder="55 11 XXXXXXXXX">
+
+            <label for="cidade" class="mensagem__etiqueta">Cidade</label>
+            <input type="text" name="cidade" id="cidade" class="mensagem__input mensagem__input-perfil" placeholder="São Paulo">
+
+            <label for="sobre" class="mensagem__etiqueta">Sobre</label>
+            <textarea name="sobre" id="sobre" cols="30" rows="10" class="mensagem__input mensagem__input-textarea mensagem__input-perfil" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+
+            <div class="mensagem__botao">
+                <button class="mensagem__botao__clicar">Salvar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+
+</body>
+</html>
